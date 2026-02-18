@@ -1,0 +1,18 @@
+# Never commit credentials or runtime state
+.env
+.env.*
+*.log
+error_log
+debug.log
+config.php
+web.config
+
+# Host / upgrade artefacts
+.htaccess.phpupgrader.*
+.htaccess.no_htaccess.*
+
+# Archives and database dumps
+*.rar
+*.zip
+*.sql
+*.bak

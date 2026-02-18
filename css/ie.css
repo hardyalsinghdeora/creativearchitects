@@ -1,0 +1,18 @@
+
+.class { behavior:url(js/PIE.htc); position:absolute;}
+
+body{
+	min-width: 980px;
+}
+
+#form .invalid .error-message, #form .empty .empty-message {
+	display: block;
+}
+
+#form .error-message, #form .empty-message {
+	display: none;
+}
+
+.camera_pag {
+	top: 74%;
+}

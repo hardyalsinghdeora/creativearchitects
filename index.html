@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Home</title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+     <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
+     <link rel="stylesheet" href="css/touchTouch.css"> 
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+	 <script src="js/script.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.mobilemenu.js"></script>
+     <script src="js/camera.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/sForm.js"></script>
+     <script src="js/jquery.fancybox-1.3.4.js"></script>
+     <script src="js/touchTouch.jquery.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+         <script src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]--> 
+      <script>
+      
+         $(document).ready(function(){
+          jQuery('#camera_wrap').camera({
+            loader: false,
+            pagination: true ,
+            minHeight: '250',
+            thumbnails: false,
+            height: '36.214285%',
+            caption: true,
+            navigation: true,
+            fx: 'simpleFade'
+          });
+  
+        /*video*/
+            $("a.various").fancybox();
+
+        /*gallery*/   
+            $('.magnifier').touchTouch();
+     }) 
+
+
+
+        jQuery(function(){
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });     
+    </script>
+     <!--<![endif]-->
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script src="js/html5shiv.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+     </head>
+     <body>
+<!--==============================header=================================-->
+<header>
+    <div class="top_line"></div>
+    <div class="container_12">
+        <div class="grid_6">
+            <h1><a class="logo" href="index.html">Creative Architects</a> </h1>
+        </div>
+        <div class="grid_6">
+            <div class="menuHolder">
+                <nav>
+                    <ul class="sf-menu">
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="index-2.html">Our Services</a></li>
+                        <li><a href="index-3.html">Gallery</a></li>
+                        <li><a href="index-4.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="slider_wrapper">
+      <div id="camera_wrap" class="">
+        <div data-src="images/slide_1.jpg" >
+            <div class="caption fadeIn">
+            </div>
+        </div>
+        <div data-src="images/slide_2.jpg" >
+            <div class="caption fadeIn">
+            </div>
+        </div>
+        <div data-src="images/slide_3.jpg">
+            <div class="caption fadeIn">
+            </div>
+        </div>
+    </div> 
+</div>
+<!--=======content================================-->
+<section id="content">
+    <div class="cont_block_2">
+        <div class="container_12">
+            <div class="grid_12 al_center">
+                <h2 class="marg_1">Why Should You Choose Us</h2>
+            </div>
+        </div>
+    </div>
+    <div class="cont_block_1">
+        <div class="container_12">
+            <div class="grid_4">
+                <div class="block_1">
+                    <i class="fa fa-magnet"></i>
+                    <h3><a href="#" class="link_1 animate">Unique</a></h3>
+                    <p>We design a home with a multitude of styles and sizes to suit many tastes and budgets. We know we have the <b>unique home design</b> for you.</p>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div class="block_1">
+                    <i class="fa fa-inr"></i>
+                    <h3><a href="#" class="link_1 animate">Affordable</a></h3>
+                    <p>When we are asked to design a special home that's unique, fits your lifestyle perfectly and is achievable with in your <b>budget</b>.</p>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div class="block_1">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <h3><a href="#" class="link_1 animate">Excellent</a></h3>
+                    <p>Having an <b>excellent home design</b> specifically for and your needs is often a once <b>in-a-lifetime</b> experience.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div> 
+        </div>
+    </div>
+    <div class="cont_block_3">
+        <div class="container_12">
+            <div class="grid_4">
+                 <a class="magnifier" href="images/exterior/exterior3.jpg"><img alt="" src="images/exterior/exterior3.jpg"></a>
+            </div>
+             <div class="grid_8">
+                <div class="grid_2 alpha">
+                    <a class="magnifier" href="images/exterior1.jpg"><img alt="" src="images/exterior1.jpg"></a>
+                </div>
+                <div class="grid_2">
+                    <a class="magnifier" href="images/exterior2.jpg"><img alt="" src="images/exterior2.jpg"></a>
+                </div>
+                <div class="grid_2">
+                    <a class="magnifier" href="images/exterior4.jpg"><img alt="" src="images/exterior4.jpg"></a>
+                </div>
+                <div class="grid_2 omega">
+                    <a class="magnifier" href="images/exterior5.jpg"><img alt="" src="images/exterior5.jpg"></a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="grid_2 alpha">
+                    <a class="magnifier" href="images/exterior6.jpg"><img alt="" src="images/exterior6.jpg"></a>
+                </div>
+                <div class="grid_2">
+                    <a class="magnifier" href="images/exterior7.jpg"><img alt="" src="images/exterior7.jpg"></a>
+                </div>
+                <div class="grid_2">
+                    <a class="magnifier" href="images/interior/interior1.jpg"><img alt="" src="images/interior/interior1.jpg"></a>
+                </div>
+                <div class="grid_2 omega">
+                    <a class="magnifier" href="images/interior/interior2.jpg"><img alt="" src="images//interior/interior2.jpg"></a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="cont_block_4">
+        <div class="container_12">
+            <div class="grid_4 prefix_4">
+                <a href="#" class="button1 animate">Go to gallary<span></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=======footer=================================-->
+<footer>
+    <div class="container_12">
+        <div class="wrapper">
+            <div class="grid_12">
+                <span class="logo">Creative Architects</span>
+                <p>&copy; <span id="copyright-year"></span><span class="sep"></span><a href="index-5.html" class="link animate">Privacy Policy</a></p>
+                <div><!--{%FOOTER_LINK} --></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_line"></div>
+</footer>
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7078796-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+</body>
+</html>
