@@ -16,3 +16,9 @@ web.config
 *.zip
 *.sql
 *.bak
+
+# Added 2026-11-05 before making the repo public: logs, dumps and env files never get committed
+wp-content/uploads/wc-logs/
+*.sql.gz
+*.wpress
+wp-content/ai1wm-backups/
